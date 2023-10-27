@@ -237,6 +237,7 @@ namespace StockChessCS.Helpers
         private static void PawnMove(ChessPiece piece, BoardSquare targetSquare, ObservableCollection<IBoardItem> items)
         {
             // Nâng cấp quân tốt nếu đạt đến hàng cuối cùng của đối phương.
+
             switch (piece.Color)
             {
                 case PieceColor.Black:

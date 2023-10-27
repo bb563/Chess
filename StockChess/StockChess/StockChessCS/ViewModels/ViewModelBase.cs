@@ -17,6 +17,7 @@ namespace StockChessCS.ViewModels
         // CallerMemberNameAttribute được sử dụng để tự động lấy tên của thuộc tính gọi phương thức.
         public void OnPropertyChanged([CallerMemberName()] string name = null)
         {
+
             // Kiểm tra xem tên thuộc tính đã được truyền hay chưa.
             if (name != null)
             {
