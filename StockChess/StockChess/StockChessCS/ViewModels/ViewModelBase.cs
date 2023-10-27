@@ -22,6 +22,7 @@ namespace StockChessCS.ViewModels
             if (name != null)
             {
                 // Gọi sự kiện PropertyChanged để thông báo sự thay đổi của thuộc tính.
+
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
             }
         }
